@@ -1,14 +1,17 @@
 #developed by Santosh Baral
-#using haveibeenpwned.com
 developer="""
 ************************ Developed By Santosh Baral ****************************     
                     This Is Made For Educational Purpose
              Visit https://santoshbrl.com.np For Developer Details
             Visit https://techohnepal.com For Any Development Projects
 
-                    *****  ****  **** *   *        **    *   *
-                      *    ****  *    *****      *    *  *****
-                      *    ****  **** *   *        **    *   *
+████████████  ██████████   ██████████  ██      ██        █████████   ██      ██
+     ██       ██           ██          ██      ██        ██     ██   ██      ██
+     ██       ██           ██          ██      ██        ██     ██   ██      ██
+     ██       ███████      ██          ██████████        ██     ██   ██████████
+     ██       ██           ██          ██      ██        ██     ██   ██      ██
+     ██       ██           ██          ██      ██        ██     ██   ██      ██
+     ██       ██████████   ██████████  ██      ██        █████████   ██      ██
 
 *******************************************************************************
 
@@ -54,7 +57,7 @@ while choice==True:
 
 			#fetching json data
 			full_json=html_request.json()
-			#print(full_json)
+			#print(full_json) #if you want to print full json
 			#checking for all possible data leak
 			for dates in range(0,9):
 			#checking/verifying for all values
