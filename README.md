@@ -1,7 +1,7 @@
 # pwned-checker
 This tools help you to check if your email address is pwned or not and show the information about it like leaked from and leaked data.
 
-<h1>#Made For Education Purpose Only</h1>
+
 <br>
 <h1>Use Of This Tool</h1>
 We can hear news of data breaches daily. So, with this tool you can check if your account have been pwned or not if yes than you can see what are the information that are breached and from where they got breach.
