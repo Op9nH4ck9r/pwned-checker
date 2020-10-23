@@ -38,10 +38,9 @@ If You Face Any Problem Make Sure You Have Install All Libraries Required For Th
 |                                                                                       
 |*********************** Libraries Installation Command Line ********************************
 |---------------------------------------------------------------------------------------------
-|	json2html = pip install json2html or pip3 install json2html
-|	urllib = pip install urllib3 or pip3 install urllib3
-|	json = pip install jsonlib or pip3 install jsonlib
-|	BeautifulSoup = pip install beautifulsoup4 or pip3 install beautifulsoup4          
+|	
+|		pip3 install -r requirements.txt 
+|	       
 | 
 ----------------------------------------------------------------------------------------------
 
