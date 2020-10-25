@@ -60,8 +60,12 @@ If You Face Any Problem Make Sure You Have Install All Libraries Required For Th
 """
 
 print(developer)
+
 from datetime import datetime
 from json2html import *
+from bs4 import BeautifulSoup as BS
+from urllib.request import Request, urlopen
+
 import urllib.request
 import json
 
@@ -132,15 +136,12 @@ if password_choice == str("y") or password_choice == str("Y"):
 		if not username:
 			username = '%'
 
-
-	from urllib.request import Request, urlopen
 	data = urllib.parse.urlencode({'luser': username, 'domain': domain, 'luseropr': 0, 'domainopr': 0, 'submitform': 'em'})
 	data = data.encode('ascii')
 	req = Request('https://pwndb2am4tzkvold.onion.ws', headers={'User-Agent': 'Mozilla/5.0'},data=data)
 	webpage = urlopen(req).read()
 	#print(webpage)
 
-	from bs4 import BeautifulSoup as BS
 	soup = BS(webpage, 'html.parser')
 	#print(soup.find('pre').text.strip())
 	print("Thank Your For Using This Tool")
