@@ -39,3 +39,17 @@ pip3 install -r requirements.txt
 <br>
 <h1>Disclaimer</h1>
 Legal disclaimer: Usage of pwned.py for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local,state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused.
+
+
+<h3> pwndb.py</h3>
+Copyright (c) 2019 David Tavarez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
