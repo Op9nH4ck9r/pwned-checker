@@ -128,15 +128,11 @@ password_choice=input("Want To Check If Password Is Available Online(y/n): ")
 print("\n")
 if password_choice == str("y") or password_choice == str("Y"):
 	url = "https://pwndb2am4tzkvold.onion.ws/"
-	username = email
-	domain = "%"
-	if "@" in email:
-		username = email.split("@")[0]
-		domain = email.split("@")[1]
-		if not username:
-			username = '%'
-
-	data = urllib.parse.urlencode({'luser': username, 'domain': domain, 'luseropr': 0, 'domainopr': 0, 'submitform': 'em'})
+	
+	luser = email.split("@")[0]
+	domain = email.split("@")[1]
+	
+	data = urllib.parse.urlencode({'luser': luser, 'domain': domain, 'luseropr': 0, 'domainopr': 0, 'submitform': 'em'})
 	data = data.encode('ascii')
 	req = Request('https://pwndb2am4tzkvold.onion.ws', headers={'User-Agent': 'Mozilla/5.0'},data=data)
 	webpage = urlopen(req).read()
